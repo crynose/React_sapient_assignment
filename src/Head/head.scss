@@ -1,0 +1,13 @@
+.headWrapper {
+    display: flex;
+    margin-bottom: 20px;
+    .search,
+    .sort {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .sort {
+        text-align: right;
+    }
+}
+

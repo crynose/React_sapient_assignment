@@ -1,0 +1,29 @@
+
+.app{
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.characterList{
+  max-width: 100%;
+  flex-basis: 100%;
+}
+.filter{
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+
+@media only screen and (min-width: 760px){
+  .filter{
+    max-width: 20%;
+    flex-basis: 20%;
+    position: relative;
+  }
+
+  .characterList{
+    max-width: 80%;
+    flex-basis: 80%;
+  }
+}

@@ -1,0 +1,15 @@
+.borderBox{
+    border:1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.filterDesign {
+    padding-right: 30px;
+    .inputTouch{
+        padding: 10px;
+    }
+}
